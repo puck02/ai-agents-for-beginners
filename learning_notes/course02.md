@@ -33,17 +33,17 @@
 ## 下一步可选行动
   - Semantic Kernel 入门：[01-intro-to-ai-agents/code_samples/01-semantic-kernel.ipynb]
   - AutoGen 入门：[02-explore-agentic-frameworks/code_samples/02-autogen.ipynb]
-  - 复试助手（RAG + memory + Tool Use）：展示检索流程、记忆效果与工具调用；解释 embeddings/Vector DB 与 runtime 的作用。
+  - 预习 Lesson 03：理解 ReAct、Planner/Executor、Memory、Tool Use、CoT、Multi‑Agent 与 Orchestration 的基本概念与应用场景。
 ## Course 03 简短预习（Understanding AI Agentic Design Patterns）
 - 目标：提前熟悉常见 Agent 设计模式及关键英文术语（保留并解释）。
 - 关键术语与模式：
   - ReAct（Reasoning + Acting）：推理与行动结合；在推理步骤中决定是否调用外部工具（act）。
   - Planner / Executor（Planner‑Solver）：将复杂任务分解为子任务，由执行器逐步执行与验证，适合 multi‑step problems。
-  - RAG（Retrieval‑Augmented Generation）：检索增强生成；Embeddings + Vector DB 检索上下文后交给 LLM 生成。
+  - （本课预习专注设计模式，不涉及 RAG 细节；RAG 将在后续专题中讲解）
   - Memory（Short‑term / Long‑term）：短期为会话上下文；长期为向量库中的持久化信息。
   - Tool Use / Tool Invocation：Agent 调用外部 API/函数；通过 Tool Registry/插件管理。
   - Chain‑of‑Thought（CoT）：显式展开中间推理步骤的提示技术，提升复杂推理稳定性。
   - Multi‑Agent Patterns（Leader‑Worker、BlackBoard 等）：多 Agent 的协作/协调模式。
   - Orchestration / Runtime：运行时负责调度、消息路由、并发与安全边界（stand‑alone vs distributed）。
-  - Embeddings & Vector DB：文本向量化与相似度检索；向量数据库用于高效查询。
+  - Embeddings & Vector DB：文本向量化与相似度检索；向量数据库用于高效查询（与 RAG 相关但本节不展开）。
   - MCP（Model Context Protocol）：模型/Agent 之间的上下文通信协议。

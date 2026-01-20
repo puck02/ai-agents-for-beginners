@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI 代理入门 - 课程
 
-![生成式 AI 入门](../../translated_images/repo-thumbnailv2.06f4a48036fde647f6ba4eb19f5651babe59bb30e972748afb349e47725d7601.zh.png)
+![生成式 AI 入门](../../images/repo-thumbnailv2.png)
 
 ## 一个教你开始构建 AI 代理所需了解的一切的课程
 

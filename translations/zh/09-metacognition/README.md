@@ -771,6 +771,8 @@ print("Top Museums in Paris:", museums)
      ```python
      def filter_and_rank(items, query):
          ranked_items = sorted(items, key=lambda item: relevance_score(item, query), reverse=True)
+         #sorted会把items中的item传递给key所指的函数进行评分，用返回的值进行排序，reverse=True表示降序排列
+         
          return ranked_items[:10]  # Return top 10 relevant items
      ```
 
@@ -870,8 +872,8 @@ print("Updated Itinerary with Feedback:", updated_items)
 
 1. **理解用户意图**：
    - 用户意图可以分为三种主要类型：信息型、导航型和交易型。
-     - **信息型意图**：用户寻求关于某个主题的信息（例如：“巴黎最好的博物馆有哪些？”）。
-     - **导航型意图**：用户希望导航到特定网站或页面（例如：“卢浮宫官网”）。
+     - **信息型意图**：用户寻求关于某个信息（例如：“巴黎最好的博物馆有哪些？”）。
+     - **导航型意图**：用户希望导航到特定网站主题的或页面（例如：“卢浮宫官网”）。
      - **交易型意图**：用户希望执行某项交易，例如预订航班或购买商品（例如：“预订飞往巴黎的航班”）。
 
 2. **上下文意识**：
